@@ -106,7 +106,7 @@ def mapPoint(vector, point):
 
 
 # training_data = createData('../eye_move_lr.MP4_intraface_data.xml')
-training_data, headpose_data = createData('face_move_left_right[2].MP4_intraface_data.xml')
+training_data, headpose_data = createData('data/face_move_left_right[2].MP4_intraface_data.xml')
 
 frame = 0
 calculate_asymmetry()
